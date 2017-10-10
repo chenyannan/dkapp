@@ -1,0 +1,58 @@
+<resources>
+    <string name="app_name">DK</string>
+
+    <string name="home">首页</string>
+    <string name="credit">贷款</string>
+    <string name="me">我的</string>
+
+    <string name="phone_num">请输入手机号</string>
+    <string name="get_sms_number">获取验证码</string>
+    <string name="input_sms_number">请输入短信验证码</string>
+    <string name="input_credit_code">请输入图形验证码</string>
+    <string name="agree">我已阅读并同意</string>
+    <string name="agreement">《贷款协议》</string>
+    <string name="not_fill_in">未填写</string>
+    <string name="choose">请选择</string>
+    <string name="personal_data">个人资料</string>
+    <string name="desc">请输入整数据，更大概率成功申请贷款</string>
+    <string name="input_name">输入姓名</string>
+    <string name="please_input_name">请输入姓名</string>
+    <string name="input_income">输入月收入</string>
+    <string name="please_input_income">请输入月收入</string>
+    <string name="input_personal_id">输入身份证号码</string>
+    <string name="please_input_personal_id">请输入身份证号码</string>
+    <string name="please_choose_education_level">请选择教育程度</string>
+    <string name="please_choose_profession">请选择职业</string>
+    <string name="please_choose_is_have_credit_card">请选择有无信用卡</string>
+    <string name="save">保存</string>
+    <string name="personal_center">个人中心</string>
+    <string name="browse_record">浏览记录</string>
+    <string name="feed_back">意见反馈</string>
+    <string name="about">关于</string>
+
+    <string name="name">姓名</string>
+    <string name="phone">手机号</string>
+    <string name="personal_id_card">身份证</string>
+    <string name="education_level">教育程度</string>
+    <string name="credit_card">信用卡</string>
+    <string name="profession_info">职业信息</string>
+    <string name="income">月收入</string>
+
+    <string name="education_one">硕士及以上</string>
+    <string name="education_two">本科</string>
+    <string name="education_three">大专</string>
+    <string name="education_four">中转/高中及以下</string>
+
+    <string name="profession_one">上班族</string>
+    <string name="profession_two">学生</string>
+    <string name="profession_three">企业主</string>
+    <string name="profession_four">个体工商户</string>
+    <string name="profession_five">无固定职业</string>
+
+    <string name="choose_credit_have">有</string>
+    <string name="choose_credit_not">无</string>
+
+
+
+    <string name="login">登录</string>
+</resources>

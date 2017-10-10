@@ -1,0 +1,81 @@
+<resources>
+
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.AppCompat.Light.NoActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorAccent</item>
+    </style>
+
+
+    <style name="content_rb_style">
+        <item name="android:textColor">@drawable/selector_rb_text</item>
+        <item name="android:layout_marginTop">@dimen/dp13.33</item>
+        <item name="android:textSize">@dimen/sp8.67</item>
+        <item name="android:drawablePadding">@dimen/dp4.33</item>
+        <item name="android:gravity">center</item>
+        <item name="android:background">@null</item>
+        <item name="android:button">@null</item>
+        <item name="android:layout_weight">1</item>
+        <item name="android:layout_width">0dp</item>
+        <item name="android:layout_height">match_parent</item>
+    </style>
+
+    <style name="personal_data">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_centerVertical">true</item>
+        <item name="android:layout_marginLeft">@dimen/dp12</item>
+        <item name="android:textColor">@color/C_313131</item>
+        <item name="android:textSize">@dimen/sp14</item>
+    </style>
+
+    <style name="personal_data_set">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_alignParentRight">true</item>
+        <item name="android:layout_centerVertical">true</item>
+        <item name="android:layout_marginRight">@dimen/dp12.33</item>
+        <item name="android:drawablePadding">@dimen/dp11</item>
+        <item name="android:drawableRight">@drawable/more</item>
+    </style>
+
+    <style name="view_line_margin_12">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">@dimen/dp0.33</item>
+        <item name="android:layout_marginLeft">@dimen/dp12</item>
+        <item name="android:layout_marginRight">@dimen/dp12</item>
+        <item name="android:background">@color/E6E6E6</item>
+    </style>
+
+    <style name="personal_arrow">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_alignParentRight">true</item>
+        <item name="android:layout_centerVertical">true</item>
+        <item name="android:layout_marginRight">@dimen/dp11.73</item>
+        <item name="android:src">@drawable/more</item>
+    </style>
+
+    <style name="personal_left_text">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_centerVertical">true</item>
+        <item name="android:layout_marginLeft">@dimen/dp12</item>
+        <item name="android:gravity">center_vertical</item>
+        <item name="android:textColor">@color/C_454545</item>
+        <item name="android:textSize">@dimen/dp14</item>
+    </style>
+
+    <style name="choose_education">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">@dimen/dp42</item>
+        <item name="android:background">@color/fff</item>
+        <item name="android:gravity">center_vertical</item>
+        <item name="android:paddingLeft">@dimen/dp12</item>
+        <item name="android:textColor">@color/C_313131</item>
+        <item name="android:textSize">@dimen/sp14</item>
+    </style>
+
+</resources>

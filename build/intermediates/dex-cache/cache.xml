@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<items version="2" >
+
+    <item
+        is-multidex="false"
+        jar="/Users/mr.chen/Documents/DK/app/libs/jsms_android-1.1.0.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.3"
+        sha1="3c95d354e3ce4b32206214d5330c5d935dcd7acf">
+        <dex dex="/Users/mr.chen/Documents/DK/app/build/intermediates/pre-dexed/debug/jsms_android-1.1.0_8d852943bf236a851ec448c02b2633e2e5497ed8.jar" />
+    </item>
+
+</items>

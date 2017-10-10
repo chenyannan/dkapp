@@ -1,0 +1,152 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              android:layout_width="match_parent"
+              android:layout_height="match_parent"
+              android:background="@color/F2F2F2"
+              android:orientation="vertical">
+
+    <include layout="@layout/layout_title"/>
+
+    <RelativeLayout
+        android:id="@+id/rl_setName"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/dp41.67"
+        android:layout_marginTop="@dimen/dp20"
+        android:background="@color/fff">
+
+        <TextView
+            style="@style/personal_data"
+            android:text="@string/name"/>
+
+        <TextView
+            android:id="@+id/tv_setName"
+            style="@style/personal_data_set"
+            android:text="@string/not_fill_in"
+            android:textColor="@color/ADADB5"/>
+    </RelativeLayout>
+
+    <View style="@style/view_line_margin_12"/>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/dp41.67"
+        android:background="@color/fff">
+
+        <TextView
+            style="@style/personal_data"
+            android:text="@string/phone"/>
+
+        <TextView
+            android:id="@+id/tv_phone"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:layout_centerVertical="true"
+            android:layout_marginRight="@dimen/dp12"
+            android:textColor="@color/ADADB5"/>
+    </RelativeLayout>
+
+    <View style="@style/view_line_margin_12"/>
+
+    <RelativeLayout
+        android:id="@+id/rl_personalID"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/dp41.67"
+        android:background="@color/fff">
+
+        <TextView
+            style="@style/personal_data"
+            android:text="@string/personal_id_card"/>
+
+        <TextView
+            android:id="@+id/tv_personalID"
+            style="@style/personal_data_set"
+            android:text="@string/not_fill_in"
+            android:textColor="@color/E96137"/>
+    </RelativeLayout>
+
+    <View style="@style/view_line_margin_12"/>
+
+    <RelativeLayout
+        android:id="@+id/rl_educationLevel"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/dp41.67"
+        android:background="@color/fff">
+
+        <TextView
+            style="@style/personal_data"
+            android:text="@string/education_level"/>
+
+        <TextView
+            android:id="@+id/tv_educationLevel"
+            style="@style/personal_data_set"
+            android:text="@string/choose"
+            android:textColor="@color/ADADB5"/>
+    </RelativeLayout>
+
+    <View style="@style/view_line_margin_12"/>
+
+    <RelativeLayout
+        android:id="@+id/rl_creditCard"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/dp41.67"
+        android:background="@color/fff">
+
+        <TextView
+            style="@style/personal_data"
+            android:text="@string/credit_card"/>
+
+        <TextView
+            android:id="@+id/tv_creditCard"
+            style="@style/personal_data_set"
+            android:text="@string/choose"
+            android:textColor="@color/ADADB5"/>
+    </RelativeLayout>
+
+    <View style="@style/view_line_margin_12"/>
+
+    <RelativeLayout
+        android:id="@+id/rl_professionInfo"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/dp41.67"
+        android:background="@color/fff">
+
+        <TextView
+            style="@style/personal_data"
+            android:text="@string/profession_info"/>
+
+        <TextView
+            android:id="@+id/tv_professionInfo"
+            style="@style/personal_data_set"
+            android:text="@string/choose"
+            android:textColor="@color/ADADB5"/>
+    </RelativeLayout>
+
+    <View style="@style/view_line_margin_12"/>
+
+    <RelativeLayout
+        android:id="@+id/rl_income"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/dp41.67"
+        android:background="@color/fff">
+
+        <TextView
+            style="@style/personal_data"
+            android:text="@string/income"/>
+
+        <TextView
+            android:id="@+id/tv_income"
+            style="@style/personal_data_set"
+            android:text="@string/not_fill_in"
+            android:textColor="@color/ADADB5"/>
+    </RelativeLayout>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="@dimen/dp20"
+        android:text="@string/desc"
+        android:textColor="@color/C_888888"/>
+
+</LinearLayout>

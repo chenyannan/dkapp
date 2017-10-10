@@ -1,0 +1,141 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              android:layout_width="match_parent"
+              android:layout_height="match_parent"
+              android:background="@color/F2F2F2"
+              android:orientation="vertical">
+
+    <include layout="@layout/layout_title"/>
+
+    <LinearLayout
+        android:id="@+id/ll_inputInfo"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/dp20"
+        android:background="@color/fff">
+
+        <View
+            android:layout_width="@dimen/dp0.33"
+            android:layout_height="@dimen/dp20"
+            android:layout_gravity="center"
+            android:layout_marginLeft="@dimen/dp13"
+            android:background="@color/ADADB5"/>
+
+        <EditText
+            android:id="@+id/et_inputName"
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/dp42"
+            android:layout_marginLeft="@dimen/dp5.33"
+            android:background="@null"
+            android:cursorVisible="false"
+            android:textSize="@dimen/sp14"/>
+    </LinearLayout>
+
+
+    <Button
+        android:id="@+id/btn_save"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/dp48"
+        android:layout_marginLeft="@dimen/dp12"
+        android:layout_marginRight="@dimen/dp12"
+        android:layout_marginTop="@dimen/dp20"
+        android:background="@color/E96137"
+        android:text="@string/save"
+        android:textColor="@color/fff"
+        android:textSize="@dimen/sp16"/>
+
+    <LinearLayout
+        android:id="@+id/ll_chooseEducation"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:visibility="gone">
+
+        <TextView
+            style="@style/choose_education"
+            android:layout_marginTop="@dimen/dp20"
+            android:text="@string/education_one"/>
+
+        <View
+            style="@style/view_line_margin_12"/>
+
+        <TextView
+            style="@style/choose_education"
+            android:text="@string/education_two"/>
+
+        <View
+            style="@style/view_line_margin_12"/>
+
+        <TextView
+            style="@style/choose_education"
+            android:text="@string/education_three"/>
+
+        <View
+            style="@style/view_line_margin_12"/>
+
+        <TextView
+            style="@style/choose_education"
+            android:text="@string/education_four"/>
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/ll_chooseProfession"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:visibility="gone">
+
+        <TextView
+            style="@style/choose_education"
+            android:layout_marginTop="@dimen/dp20"
+            android:text="@string/profession_one"/>
+
+        <View
+            style="@style/view_line_margin_12"/>
+
+        <TextView
+            style="@style/choose_education"
+            android:text="@string/profession_two"/>
+
+        <View
+            style="@style/view_line_margin_12"/>
+
+        <TextView
+            style="@style/choose_education"
+            android:text="@string/profession_three"/>
+
+        <View
+            style="@style/view_line_margin_12"/>
+
+        <TextView
+            style="@style/choose_education"
+            android:text="@string/profession_four"/>
+
+        <View
+            style="@style/view_line_margin_12"/>
+
+        <TextView
+            style="@style/choose_education"
+            android:text="@string/profession_five"/>
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/ll_chooseCredit"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:visibility="gone">
+
+        <TextView
+            style="@style/choose_education"
+            android:layout_marginTop="@dimen/dp20"
+            android:text="@string/choose_credit_have"/>
+
+        <View
+            style="@style/view_line_margin_12"/>
+
+        <TextView
+            style="@style/choose_education"
+            android:text="@string/choose_credit_not"/>
+    </LinearLayout>
+</LinearLayout>

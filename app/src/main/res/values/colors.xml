@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#3F51B5</color>
+    <color name="colorPrimaryDark">#303F9F</color>
+    <color name="colorAccent">#FF4081</color>
+
+    <color name="fff">#fff</color>
+    <color name="black000">#000</color>
+    <color name="loan_butBackground">#ed6d48</color>
+    <color name="ADADB5">#ADADB5</color>
+    <color name="E6E6E6">#E6E6E6</color>
+    <color name="C_405295">#405295</color>
+    <color name="F2F2F2">#F2F2F2</color>
+    <color name="C_313131">#313131</color>
+    <color name="E96137">#E96137</color>
+    <color name="C_888888">#888888</color>
+    <color name="C_454545">#454545</color>
+</resources>

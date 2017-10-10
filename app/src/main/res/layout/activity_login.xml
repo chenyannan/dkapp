@@ -1,0 +1,165 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              android:layout_width="match_parent"
+              android:layout_height="match_parent"
+              android:orientation="vertical">
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="@dimen/dp75"
+        android:src="@drawable/ic_launcher"/>
+
+    <EditText
+        android:id="@+id/et_phone"
+        style="?android:attr/textViewStyle"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_vertical"
+        android:layout_marginLeft="@dimen/dp30.33"
+        android:layout_marginTop="@dimen/dp59"
+        android:background="@null"
+        android:ellipsize="end"
+        android:hint="@string/phone_num"
+        android:inputType="phone"
+        android:maxLength="11"
+        android:maxLines="1"
+        android:textColor="@color/black000"
+        android:textColorHint="@color/ADADB5"
+        android:textSize="@dimen/sp16"/>
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/dp0.33"
+        android:layout_marginLeft="@dimen/dp30"
+        android:layout_marginRight="@dimen/dp30"
+        android:layout_marginTop="@dimen/dp11.67"
+        android:background="@color/E6E6E6"/>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+
+            <EditText
+                android:id="@+id/et_securityCode"
+                style="?android:attr/textViewStyle"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginLeft="@dimen/dp30.33"
+                android:layout_marginTop="@dimen/dp32.33"
+                android:background="@null"
+                android:hint="@string/input_credit_code"
+                android:maxLength="4"
+                android:maxLines="1"
+                android:textColor="@color/black000"
+                android:textColorHint="@color/ADADB5"
+                android:textSize="@dimen/sp16"/>
+        </LinearLayout>
+
+        <ImageView
+            android:id="@+id/iv_showSecurityCode"
+            android:layout_width="@dimen/dp80"
+            android:layout_height="@dimen/dp30"
+            android:layout_alignParentRight="true"
+            android:layout_marginRight="@dimen/dp30"
+            android:layout_marginTop="@dimen/dp25.33"/>
+    </RelativeLayout>
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/dp0.33"
+        android:layout_marginLeft="@dimen/dp30"
+        android:layout_marginRight="@dimen/dp30"
+        android:layout_marginTop="@dimen/dp11.67"
+        android:background="@color/E6E6E6"/>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/dp32.33">
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+
+            <EditText
+                android:id="@+id/et_smsCode"
+                style="?android:attr/textViewStyle"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginLeft="@dimen/dp30.33"
+                android:background="@null"
+                android:hint="@string/input_sms_number"
+                android:maxLength="4"
+                android:maxLines="1"
+                android:textColor="@color/black000"
+                android:textColorHint="@color/ADADB5"
+                android:textSize="@dimen/sp16"/>
+        </LinearLayout>
+
+        <TextView
+            android:id="@+id/tv_getSmsCode"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:layout_marginRight="@dimen/dp30"
+            android:text="@string/get_sms_number"
+            android:textColor="@color/C_405295"
+            android:textSize="@dimen/sp16"/>
+    </RelativeLayout>
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/dp0.33"
+        android:layout_marginLeft="@dimen/dp30"
+        android:layout_marginRight="@dimen/dp30"
+        android:layout_marginTop="@dimen/dp11.67"
+        android:background="@color/E6E6E6"/>
+
+    <Button
+        android:id="@+id/btn_login"
+        style="?android:attr/borderlessButtonStyle"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="@dimen/dp30"
+        android:layout_marginRight="@dimen/dp30"
+        android:layout_marginTop="@dimen/dp20"
+        android:background="@color/C_405295"
+        android:text="@string/login"
+        android:textColor="@color/fff"
+        android:textSize="@dimen/sp15"/>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/dp11">
+
+        <CheckBox
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="@dimen/dp30.33"
+            android:checked="true"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/agree"
+            android:textColor="@color/ADADB5"
+            android:textSize="@dimen/sp11"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/agreement"
+            android:textColor="@color/C_405295"
+            android:textSize="@dimen/sp11"/>
+
+    </LinearLayout>
+
+
+</LinearLayout>
